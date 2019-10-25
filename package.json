@@ -1,26 +1,31 @@
 {
   "name": "loft-taxi-mui-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Loft-taxi theme for Material UI",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack --watch",
-    "build": "webpack"
+    "build": "webpack",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "author": "Maksim Ivanov",
   "license": "ISC",
   "dependencies": {
-    "@babel/preset-react": "^7.6.3",
-    "@material-ui/core": "^4.5.1",
-    "react-dom": "^16.10.2",
-    "svg-url-loader": "^3.0.2"
+    "@material-ui/core": "^4.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
+    "@babel/preset-react": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
+    "@storybook/addon-actions": "^5.2.4",
+    "@storybook/addon-links": "^5.2.4",
+    "@storybook/addons": "^5.2.4",
+    "@storybook/react": "^5.2.4",
     "babel-loader": "^8.0.6",
     "file-loader": "^4.2.0",
+    "svg-url-loader": "^3.0.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.9"
   }
