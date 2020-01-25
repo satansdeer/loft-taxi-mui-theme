@@ -16,7 +16,7 @@ yarn add loft-taxi-mui-theme
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import { theme } from "loft-taxi-mui-theme";
+import { theme } from "loft-taxi-mui-theme"; // Импортируем саму тему
 import { MuiThemeProvider } from "@material-ui/core/styles";
 
 ReactDOM.render(
@@ -28,3 +28,19 @@ ReactDOM.render(
 ```
 
 # Что содержит
+
+Тема переопределяет цвета и внешний вид инпутов, кнопок и ссылкок. Элементы у которых необходимо поменять отступы и позицию нужно стилизовать отдельно. ([Страницы документации о кастомных стилях](https://material-ui.com/customization/components/))
+
+Указывает `primary` и `secondary` цвета.
+
+Переопределяет стили для `FormLabel`, `Link`, `Input`, `FormHelperText`, `Button`.
+
+Содержит компоненты логотипа LoftTaxi (`Logo`) и иконки mastercard (`MCLogo`).
+
+Пример импорта:
+
+```jsx
+import {Logo, MCLogo} from 'loft-taxi-mui-theme';
+```
+
+Посмотреть как выглядят стили можно в файле [theme](https://github.com/satansdeer/loft-taxi-mui-theme/blob/master/src/theme.js)
