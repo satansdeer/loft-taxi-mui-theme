@@ -1,6 +1,6 @@
 {
   "name": "loft-taxi-mui-theme",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Loft-taxi theme for Material UI",
   "main": "build/index.js",
   "scripts": {

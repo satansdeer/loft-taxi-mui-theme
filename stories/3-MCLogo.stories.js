@@ -1,8 +1,8 @@
 import React from "react";
-import { MCIcon } from "../src/MCLogo";
+import { MCIcon } from "../src/MCIcon";
 
 export default {
-  title: "MCLogo"
+  title: "MCIcon"
 };
 
 export const normal = () => <MCIcon />;

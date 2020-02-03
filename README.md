@@ -35,12 +35,12 @@ ReactDOM.render(
 
 Переопределяет стили для `FormLabel`, `Link`, `Input`, `FormHelperText`, `Button`.
 
-Содержит компоненты логотипа LoftTaxi (`Logo`) и иконки mastercard (`MCLogo`).
+Содержит компоненты логотипа LoftTaxi (`Logo`) и иконки mastercard (`MCIcon`).
 
 Пример импорта:
 
 ```jsx
-import {Logo, MCLogo} from 'loft-taxi-mui-theme';
+import {Logo, MCIcon} from 'loft-taxi-mui-theme';
 ```
 
 Посмотреть как выглядят стили можно в файле [theme](https://github.com/satansdeer/loft-taxi-mui-theme/blob/master/src/theme.js)
