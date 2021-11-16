@@ -13,7 +13,7 @@
   "author": "Maksim Ivanov",
   "license": "ISC",
   "dependencies": {
-    "@material-ui/core": "^4.5.1"
+    "@material-ui/core": "^4.12.3"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
